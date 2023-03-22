@@ -391,7 +391,7 @@ h4 {
 }
 
 .reviews .swiper {
-  max-height: 400px;
+  max-height: 400px !important;
   max-width: 400px;
 }
 .reviews .review {
