@@ -390,6 +390,25 @@ h4 {
   display: inline-block;
 }
 
+.projects .project {
+  background-color: var(--primary-800);
+  border-radius: 3px;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.projects .project__photo {
+  height: 25rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  -o-object-position: top;
+     object-position: top;
+}
+.projects .project__text {
+  padding: 4rem;
+}
+
 .reviews .swiper {
   max-height: 400px !important;
   max-width: 400px;

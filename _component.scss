@@ -132,6 +132,33 @@
         }
     }
   }
+
+//   project section
+
+   .projects {
+    &__container {
+
+    }
+    .project {
+        background-color: var(--primary-800);
+        border-radius: 3px;
+        margin-bottom: 4rem;
+        // padding: 4rem;
+        text-align: center;
+        &__photo {
+            height: 25rem;
+            object-fit: cover;
+            border-top-right-radius: 3px;
+            border-top-left-radius: 3px;
+            object-position: top;
+            // transform: translateY(-4rem);
+
+        }
+        &__text {
+           padding: 4rem;
+        }
+    }
+   }
   .reviews {
    
     &__container {
