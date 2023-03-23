@@ -394,10 +394,18 @@ h4 {
   background-color: var(--primary-800);
   border-radius: 3px;
   margin-bottom: 4rem;
+  transition: var(--transition);
   text-align: center;
+  overflow: hidden;
+  -webkit-backface-visibility: none;
+          backface-visibility: none;
+}
+.projects .project:hover {
+  transform: skewY(-2deg);
+  box-shadow: 0 0 7px 3px rgba(255, 255, 255, 0.2);
 }
 .projects .project__photo {
-  height: 25rem;
+  height: 22rem;
   -o-object-fit: cover;
      object-fit: cover;
   border-top-right-radius: 3px;

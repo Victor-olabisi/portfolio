@@ -143,15 +143,26 @@
         background-color: var(--primary-800);
         border-radius: 3px;
         margin-bottom: 4rem;
+        transition: var(--transition);
         // padding: 4rem;
         text-align: center;
+        overflow: hidden;
+        backface-visibility: none;
+        &:hover {
+            transform: skewY(-2deg);
+            box-shadow: 0 0 7px 3px  rgba(255,255,255, .2);
+            // .project__photo {
+            //      transform: skewY(4deg);
+            // }
+        }
         &__photo {
-            height: 25rem;
+            height: 22rem;
             object-fit: cover;
             border-top-right-radius: 3px;
             border-top-left-radius: 3px;
             object-position: top;
-            // transform: translateY(-4rem);
+
+           
 
         }
         &__text {
