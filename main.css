@@ -405,6 +405,11 @@ h4 {
   visibility: visible;
   transform: translate(-50%, -50%);
 }
+.reviews .review:hover .review__photo {
+  transform: scale(0.8);
+  filter: blur();
+  opacity: 0.5;
+}
 .reviews .review__photo {
   height: 100%;
   border-radius: 50%;
@@ -412,6 +417,7 @@ h4 {
           backface-visibility: hidden;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: var(--transition);
 }
 .reviews .review__img-container {
   position: relative;
@@ -541,6 +547,9 @@ h4 {
 .footer__icon-box {
   display: flex;
   justify-content: center;
+}
+.footer a {
+  display: inline-block;
 }
 .footer__text {
   margin-bottom: 1.7rem;
