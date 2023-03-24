@@ -37,11 +37,11 @@ scrollLink.forEach((link => {
     const element = document.getElementById(id);
     let position = element.offsetTop;
     const navHeight = navBar.getBoundingClientRect().height;
-    position = position - navHeight;
+    position = position - navHeight - 10;
     const fixedNav = navBar.classList.contains("fixed-nav");
     
     if (!fixedNav) {
-      position = element.offsetTop - navHeight - navHeight;
+      position = element.offsetTop - navHeight - navHeight - 10;
     }
     sideBar.classList.remove("show-sidebar")
 
