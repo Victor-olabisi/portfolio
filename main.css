@@ -390,6 +390,14 @@ h4 {
   display: inline-block;
 }
 
+@media screen and (min-width: 650px) {
+  .projects__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 3rem;
+         column-gap: 3rem;
+  }
+}
 .projects .project {
   background-color: var(--primary-800);
   border-radius: 3px;
@@ -405,7 +413,7 @@ h4 {
   box-shadow: 0 0 7px 3px rgba(255, 255, 255, 0.1);
 }
 .projects .project__photo {
-  height: 22rem;
+  height: 20rem;
   -o-object-fit: cover;
      object-fit: cover;
   border-top-right-radius: 3px;
@@ -414,19 +422,19 @@ h4 {
      object-position: top;
 }
 .projects .project__text {
-  padding: 4rem;
+  padding: 2.5rem;
 }
 .projects .project__button-div {
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 1rem;
 }
 .projects .project__link {
   text-decoration: none;
   color: var(--grey-200);
-  padding: 0.8rem 1.2rem;
+  padding: 0.5rem 1rem;
   border: 1px solid var(--primary-300);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   display: inline-block;
   border-radius: 3px;
   display: flex;
@@ -435,6 +443,7 @@ h4 {
 .projects .project__link--2 {
   background-color: var(--primary-300);
   border: none;
+  margin-bottom: 1rem;
 }
 .projects .project__icon {
   width: 2rem;
