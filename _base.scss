@@ -31,10 +31,15 @@ img {
     display: block;
 }
 section {
-    width: 90vw;
-    margin: 6rem auto;
+    width: 85vw;
+    margin: 10rem auto;
     max-width: 90rem;
 
+}
+a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
 }
 // #about,
 // #skills {

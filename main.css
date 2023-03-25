@@ -56,9 +56,15 @@ img {
 }
 
 section {
-  width: 90vw;
-  margin: 6rem auto;
+  width: 85vw;
+  margin: 10rem auto;
   max-width: 90rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
 }
 
 .section-title {
@@ -212,7 +218,7 @@ section {
 }
 
 .header {
-  height: calc(75vh - 7rem);
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -227,6 +233,9 @@ section {
 }
 .header__banner p {
   max-width: 40rem;
+}
+.header__banner .btn {
+  margin-top: 3rem;
 }
 
 h1 {
@@ -452,6 +461,9 @@ h4 {
   fill: white;
 }
 
+.reviews .swiper-pagination {
+  margin-top: 5rem;
+}
 .reviews .swiper {
   max-height: 400px !important;
   max-width: 400px;
