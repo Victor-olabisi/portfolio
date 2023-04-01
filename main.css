@@ -417,10 +417,6 @@ h4 {
   -webkit-backface-visibility: none;
           backface-visibility: none;
 }
-.projects .project:hover {
-  transform: skewY(-2deg);
-  box-shadow: 0 0 7px 3px rgba(255, 255, 255, 0.1);
-}
 .projects .project__photo {
   height: 20rem;
   -o-object-fit: cover;
@@ -469,7 +465,6 @@ h4 {
   background-color: var(--primary-800);
   padding: 3rem;
   border-radius: 2rem;
-  margin-right: 1rem;
   text-align: center;
 }
 .reviews .review:hover .review__name {
@@ -622,6 +617,12 @@ h4 {
 .footer a {
   display: inline-block;
 }
+.footer a:hover {
+  color: var(--primary-300);
+}
+.footer a:focus {
+  background-color: transparent;
+}
 .footer__text {
   margin-bottom: 1.7rem;
   font-size: 1.6rem;
@@ -634,9 +635,7 @@ h4 {
   fill: white;
   margin-left: 2rem;
   transition: var(--transition);
-}
-.footer__icon:hover {
-  fill: var(--primary-300);
+  display: flex;
 }
 
 .top-button {
