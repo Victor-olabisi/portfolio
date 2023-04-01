@@ -465,6 +465,7 @@ h4 {
   background-color: var(--primary-800);
   padding: 3rem;
   border-radius: 2rem;
+  margin-right: 0.5rem;
   text-align: center;
 }
 .reviews .review:hover .review__name {
