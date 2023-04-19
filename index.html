@@ -330,13 +330,15 @@
           <div class="contact__title">
             <h2>contact us</h2>
           </div>
-          <div class="form" data-aos="fade-in">
+          <form class="form" data-aos="fade-in" method="post" data-netlify="true">
             <div class="form__group">
               <input
                 type="text"
                 class="form__input"
-                placeholder="first name"
+                placeholder="your name"
                 id="name"
+                name="name"
+                required
               />
               <label for="name" class="form__label">first name</label>
             </div>
@@ -346,6 +348,8 @@
                 class="form__input"
                 placeholder="email"
                 id="email"
+                name="email"
+                required
               />
               <label for="name" class="form__label">email</label>
             </div>
@@ -358,7 +362,7 @@
               ></textarea>
               <label for="name" class="form__label">message</label>
             </div>
-          </div>
+          </form>
           <button type="submit" class="btn">send message</button>
         </article>
       </div>
