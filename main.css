@@ -241,6 +241,14 @@ a {
   color: white;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-family: poppins, sans-serif !important;
+  font-weight: 500;
+}
+
 h1 {
   font-size: 3.5rem;
   line-height: 1;
@@ -267,6 +275,8 @@ h3 {
 
 p {
   color: var(--grey-300);
+  font-family: poppins, sans-serif;
+  font-weight: 400;
 }
 
 h4 {
@@ -401,6 +411,7 @@ h4 {
   font-size: 2rem;
   text-transform: capitalize;
   margin-bottom: 4rem;
+  font-family: poppins, sans-serif !important;
 }
 .skills .skill ul {
   display: flex;
@@ -414,15 +425,16 @@ h4 {
   align-items: left;
   text-align: left;
   position: relative;
-  font-weight: 600;
+  font-weight: 500;
+  font-family: poppins, sans-serif;
 }
 .skills .skill ul li::before {
   content: " ";
   height: 1.2rem;
   width: 1.2rem;
   background-color: var(--primary-300);
-  -webkit-mask-image: url("./img/check.svg");
-          mask-image: url("./img/check.svg");
+  -webkit-mask-image: url("./img/svg/check-circle.svg");
+          mask-image: url("./img/svg/check-circle.svg");
   -webkit-mask-size: cover;
           mask-size: cover;
   margin-right: 1rem;
